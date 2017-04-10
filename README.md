@@ -1,4 +1,4 @@
-#HTTP Overview
+#An overview of HTTP Verbs on REST API services 
 
 ##Using HTTP Methods for RESTful Services
 
@@ -51,3 +51,4 @@ HTTP POST and PATCH are neither safe nor idempotent. (PATCH was introduced in RF
 | POST | | |
 | PATCH	| | |
 ---------------------------------
+
