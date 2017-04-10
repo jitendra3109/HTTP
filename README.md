@@ -1,6 +1,4 @@
-# An overview of HTTP Verbs on REST API services 
-
-## Using HTTP Methods for RESTful Services
+# An overview of HTTP Verbs for RESTful Services 
 
 - The primary or most-commonly-used HTTP verbs or methods are POST, GET, PUT, and DELETE
 
@@ -41,8 +39,9 @@
 
 - Idempotence in HTTP means that the side-effects of multiple identical requests are the same as for a single request. GET, PUT, and DELETE are the idempotent HTTP methods relevant to the style guide. Note that idempotence is only expressed in terms of server side-effects and does not specify anything about the response. In particular DELETE for non-existing resources should return 404 (Not Found).
 
+
 | HTTP Verb	| Safe | Idempotent |	
-|:--------------|:----------------:|
+|:--------------|:----------------:|:------:|
 | GET | Yes | Yes |
 | PUT | | Yes |
 | DELETE | |	Yes |
