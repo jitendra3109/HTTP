@@ -4,10 +4,8 @@
 
 - The primary or most-commonly-used HTTP verbs or methods are POST, GET, PUT, and DELETE
 
-##
-
 | HTTP verbs | Operations |
----------------------------
+|:--------------|:----------------:|
 | POST | Create |
 | GET | Read |
 | PUT | Update |
@@ -15,16 +13,16 @@
 
 
 - GET
-  *The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+  * The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
 
 - POST
-  *The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server
+  * The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server
 
 - PUT
-  *The PUT method replaces all current representations of the target resource with the request payload.
+  * The PUT method replaces all current representations of the target resource with the request payload.
 
 - DELETE
-  *The DELETE method deletes the specified resource.
+  * The DELETE method deletes the specified resource.
 
 
 
@@ -43,14 +41,12 @@
 
 - Idempotence in HTTP means that the side-effects of multiple identical requests are the same as for a single request. GET, PUT, and DELETE are the idempotent HTTP methods relevant to the style guide. Note that idempotence is only expressed in terms of server side-effects and does not specify anything about the response. In particular DELETE for non-existing resources should return 404 (Not Found).
 
-##
-
 | HTTP Verb	| Safe | Idempotent |	
----------------------------------
+|:--------------|:----------------:|
 | GET | Yes | Yes |
 | PUT | | Yes |
 | DELETE | |	Yes |
 | POST | | |
 | PATCH	| | |
----------------------------------
+
 
